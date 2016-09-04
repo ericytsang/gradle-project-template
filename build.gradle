@@ -12,6 +12,7 @@ buildscript {
 }
 
 apply plugin: 'kotlin'
+apply plugin: 'maven'
 
 tasks.withType(JavaCompile) {
     sourceCompatibility = "1.6"
