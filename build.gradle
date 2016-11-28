@@ -13,9 +13,10 @@ buildscript {
 
 apply plugin: 'kotlin'
 
-tasks.withType(JavaCompile) {
+compileJava {
     sourceCompatibility = "1.8"
     targetCompatibility = "1.8"
+    return this
 }
 
 repositories {
