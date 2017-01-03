@@ -1,1 +1,3 @@
-rootProject.name = renamethis!!!!!!!!!!!!!!!!!!!!!!!
+// include ':gui'
+// include ':cli'
+// include ':lib'
